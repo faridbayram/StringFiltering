@@ -1,0 +1,58 @@
+## .NET Core / .NET 5-8
+bin/
+obj/
+out/
+*.log
+*.user
+*.suo
+*.DS_Store
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pidb
+*.svclog
+*.sln.docstates
+*.tmp
+*.ide
+.vs/
+.vscode/
+TestResults/
+*.coverage
+*.coveragexml
+*.config
+*.lock.json
+
+# ASP.NET Core specific
+wwwroot/node_modules/
+wwwroot/lib/
+
+# NuGet Packages
+*.nupkg
+.nuget/
+packages/
+*.snupkg
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider & JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Secrets
+secrets.json
+appsettings.*.json
+
+# Others
+Dockerfile*
+docker-compose*
+*.sqlite
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
