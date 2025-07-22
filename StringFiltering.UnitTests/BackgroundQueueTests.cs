@@ -90,7 +90,6 @@ public class BackgroundQueueTests
         foreach (var item in items)
         {
             yield return item;
-            await Task.Yield();
         }
     }
 

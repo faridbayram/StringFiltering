@@ -44,7 +44,6 @@ public class InMemoryUploadStorage : IUploadStorage
 
         foreach (var chunk in chunksOfCurrentUpload.OrderBy(kvp => kvp.Key))
         {
-            await Task.Yield();
             yield return chunk.Value;
         }
     }
